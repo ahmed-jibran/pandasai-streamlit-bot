@@ -23,13 +23,13 @@ pip3 install -r requirements.txt
 # Run App
 After installing required packages successfully, application can be run using streamlit.
 - Export OPENAI Key
-  ```shell
-   export OPEN_AI_API_KEY="<OPEN_AI_KEY>"
-  ```
+    ```shell
+    export OPEN_AI_API_KEY="<OPEN_AI_KEY>"
+    ```
 - Run App
-```shell
-streamlit run analytics-bot.py
-```
+    ```shell
+    streamlit run analytics-bot.py
+    ```
 Access application at http://localhost:8501
 
 This app is tested using https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales?select=supermarket_sales+-+Sheet1.csv
