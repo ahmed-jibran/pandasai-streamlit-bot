@@ -24,7 +24,11 @@ pip3 install -r requirements.txt
 After installing required packages successfully, application can be run using streamlit.
 - Export OPENAI Key
     ```shell
-    export OPEN_AI_API_KEY="<OPEN_AI_KEY>"
+    # Using Windows Power Shell
+    Set-Item -Path env:OPEN_AI_API_KEY -Value "<your-openai-key>"
+    
+    # Using bash Linux / MacOS
+    export OPEN_AI_API_KEY="<your-openai-key>"
     ```
 - Run App
     ```shell
