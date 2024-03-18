@@ -1,0 +1,14 @@
+streamlit
+streamlit_chat
+langchain
+openai
+faiss-cpu
+tiktoken
+plotly
+pandasai
+pandas_profiling
+streamlit_pandas_profiling
+pygwalker
+openpyxl
+sentence-transformers
+rapidfuzz
