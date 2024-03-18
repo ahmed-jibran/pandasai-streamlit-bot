@@ -1,10 +1,9 @@
 # Overview
 This is an exploratory app to experiment with pandasai and create a bot with streamlit for data analytics.
-Clone repository to get started
-```shell
-git clone https://github.com/ahmed-jibran/pandasai-streamlit-bot.git
-```
-
+- Clone repository to get started
+  ```shell
+  git clone https://github.com/ahmed-jibran/pandasai-streamlit-bot.git
+  ```
 # Create virtual environment with required packages
 ## Linux or MacOS
 ```shell
@@ -22,9 +21,13 @@ pip3 install -r requirements.txt
 ```
 
 # Run App
-After installing required packages successfully, application can be run using streamlit
-
-```
+After installing required packages successfully, application can be run using streamlit.
+- Export OPENAI Key
+  ```shell
+   export OPEN_AI_API_KEY="<OPEN_AI_KEY>"
+  ```
+- Run App
+```shell
 streamlit run analytics-bot.py
 ```
 Access application at http://localhost:8501
