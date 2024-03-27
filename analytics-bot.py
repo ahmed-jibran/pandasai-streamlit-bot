@@ -240,7 +240,7 @@ if uploaded_files:
                     response, code, result = process_query(user_query)
                     tab_response, tab_code =st.tabs(["Response", "Code"])
                     with tab_response:
-                        if result["type"] == "plot":
+                        if result and result["type"] == "plot":
                             st.write(f"Chart is saved at: {response}")
                         else:
                             st.write(response)            
